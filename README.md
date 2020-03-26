@@ -2,7 +2,7 @@
 
 > This is a Youtube Video clone page.
 
-![screenshot](./youtube-clone.png)
+![screenshot](./youtube-page.png)
 
 Additional description about the project and its features.
 
