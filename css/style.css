@@ -49,9 +49,7 @@ header {
     max-width: 800px;
 }
 
-#logo {
-    padding-right: 20px
-}
+
 
 .btn {
     background-color: #DBDBDB;
@@ -174,7 +172,7 @@ iframe {
 }
 
 #navbar {
-    display: flex
+    display: flex;
 }
 
 #youtube-logo {
@@ -244,25 +242,20 @@ footer {
     display: flex;
     padding: 10px;
     justify-content: space-evenly;
-    justify-items: flex-start;
+
 }
 
-#footer_buttons {
-    background-color: white;
-    color: #777777;
-    padding: 5px 6px;
-    font-size: 11px;
-    border-style: none;
-    border-color: #FFFFFF;
-    justify-content: space-around;
+.footer_buttons {
+  color: #777777;
+  padding: 3px 6px;
+  font-size: 11px;
+  height: fit-content;
+  border-style: solid;
+  border-width: 0.5px;
+
 }
 
-#language_select {
-    border-style: solid;
-    border-width: 1px;
-    border-color: lightslategray;
-    height: fit-content;
-}
+
 
 .footer_links {
     background-color: white;
@@ -281,4 +274,15 @@ li {
 
 #footer_links_2 {
     font-size: 10px;
+}
+
+select {
+  border:none;
+  -webkit-appearance: none ;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  font-size: 10px;
+
+
 }
