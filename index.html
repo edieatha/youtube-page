@@ -1,10 +1,253 @@
-</<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>youtube-page</title>
-  </head>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
 
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel='stylesheet' href='css/style.css'>
+</head>
+
+<body>
+
+    <header>
+        <nav id="navbar">
+            <button class="btn2"><i class="fa fa-bars"></i></button>
+            <div>
+                <a href="#"><img class="logo" src="https://darkeandtaylor.co.uk/wp-content/uploads/2018/09/youtube-logo-png-transparent-image-e1537456990695.png" alt="youutube logo" width="100" height="25"></a>
+            </div>
+            <input type="text" name="search" id="searchbar" placeholder="Search" />
+            <button class="btn"><i class="fa fa-search"></i></button>
+            <button class="btn_upload"><i class="fa fa-upload"></i></button>
+            <button class="btn3">Sign in</button>
+        </nav>
+    </header>
+
+    <div class="language">
+        <button class="btn_lang"><i class="fa fa-user">
+              </i></button><label>Choose your language</label>
+        <button class="btn_lang_close">
+              <i class="fa fa-close">
+              </i></button>
+    </div>
+
+    <div class="notification">
+        <p>You're viewing YouTube in English (US). You can change this preference below.</p>
+    </div>
+
+
+
+
+    <div id="maincontainer">
+        <div id="video">
+            <iframe height="300" width="800" src="https://www.youtube.com/embed/MhUEeOyirBk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+            <div class="user_views">
+                <h1>How to make Dalgona Coffee</h1>
+                <div id="userinfo"><img class="profile_photo" src="https://prieyes.com/wp-content/uploads/2019/04/no-user.jpg" alt="User Info Details" width="70" height="70">
+                    <p>
+                        Edgar & Muhammad
+                        <br><img id="subscribe_button" src="https://www.vhv.rs/file/max/5/51345_subscribe-transparent-png.png" alt="subscribe-button" width="120">
+                    </p>
+                    <p id="views">
+                        567,980 views
+                    </p>
+                </div>
+
+                <hr>
+
+                <div id="button_section">
+                    <div>
+                        <button class="btn5"><i class="fa fa-plus">
+                          </i></button><label>Add to</label>
+                        <button class="btn5"><i class="fa fa-share">
+                          </i></button><label>Share</label>
+                    </div>
+                    <div id="like_buttons">
+                        <button class="btn5"><i class="fa fa-thumbs-o-up">
+                          </i></button><label>8,478</label>
+                        <button class="btn5"><i class="fa fa-thumbs-o-down">
+                          </i></button><label>478</label>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="user_views">
+                <h4>Published on Mar 27, 2020</h4>
+                <p>
+                    How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll
+                    also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for
+                    learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.
+                </p>
+                <hr>
+                <p class="show_more">SHOW MORE</p>
+
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div id="up_next">
+                <div>
+                    <p>Up next</p>
+                </div>
+                <div class="toggle_btn">
+                    <label>Autoplay</label>
+                    <label class="fa fa-info-circle"></label>
+                    <label class="fa fa-toggle-on"></label>
+                </div>
+
+            </div>
+
+            <div class="thumbnails">
+                <div>
+                    <img src="https://archive.vn/Bss88/ed9683aa07170cb5421ba283d3aad8e0a3626b97" alt="thumbnail details" width="168" height="94">
+                </div>
+                <div class="thumb_summary">
+                    <h3>GitHub - Why Microsoft Paid $7.5B</h3>
+                    <p>Microverse Project <br> 444,634 viewsviews</p>
+                </div>
+            </div>
+            <div class="thumbnails">
+                <div>
+                    <img src="https://archive.vn/Bss88/42fcf704757c206b21126f9ef6c413eff28de822" alt="thumbnail details" width="168" height="94">
+                </div>
+                <div class="thumb_summary">
+                    <h3>REST API concepts and examples</h3>
+                    <p>Microverse Project <br> 444,634 viewsviews</p>
+                </div>
+            </div>
+            <div class="thumbnails">
+                <div>
+                    <img src="https://archive.vn/Bss88/df21e12d7260fba2247c4dd328453a98929270e9" alt="thumbnail details" width="168" height="94">
+                </div>
+                <div class="thumb_summary">
+                    <h3>GConvolutional Neural Networks (CNNs) explained</h3>
+                    <p>Microverse Project <br> 444,634 viewsviews</p>
+                </div>
+            </div>
+            <div class="thumbnails">
+                <div>
+                    <img src="https://archive.vn/Bss88/ed9683aa07170cb5421ba283d3aad8e0a3626b97" alt="thumbnail details" width="168" height="94">
+                </div>
+                <div class="thumb_summary">
+                    <h3>GitHub - Why Microsoft Paid $7.5B</h3>
+                    <p>Microverse Project <br> 444,634 viewsviews</p>
+                </div>
+            </div>
+            <div class="thumbnails">
+                <div>
+                    <img src="https://archive.vn/Bss88/42fcf704757c206b21126f9ef6c413eff28de822" alt="thumbnail details" width="168" height="94">
+                </div>
+                <div class="thumb_summary">
+                    <h3>REST API concepts and examples</h3>
+                    <p>Microverse Project <br> 444,634 viewsviews</p>
+                </div>
+            </div>
+            <div class="thumbnails">
+                <div>
+                    <img src="https://archive.vn/Bss88/df21e12d7260fba2247c4dd328453a98929270e9" alt="thumbnail details" width="168" height="94">
+                </div>
+                <div class="thumb_summary">
+                    <h3>GConvolutional Neural Networks (CNNs) explained</h3>
+                    <p>Microverse Project <br> 444,634 viewsviews</p>
+                </div>
+            </div>
+            <div class="thumbnails">
+                <div>
+                    <img src="https://archive.vn/Bss88/ed9683aa07170cb5421ba283d3aad8e0a3626b97" alt="thumbnail details" width="168" height="94">
+                </div>
+                <div class="thumb_summary">
+                    <h3>GitHub - Why Microsoft Paid $7.5B</h3>
+                    <p>Microverse Project <br> 444,634 viewsviews</p>
+                </div>
+            </div>
+            <div class="thumbnails">
+                <div>
+                    <img src="https://archive.vn/Bss88/42fcf704757c206b21126f9ef6c413eff28de822" alt="thumbnail details" width="168" height="94">
+                </div>
+                <div class="thumb_summary">
+                    <h3>REST API concepts and examples</h3>
+                    <p>Microverse Project <br> 444,634 viewsviews</p>
+                </div>
+            </div>
+            <div class="thumbnails">
+                <div>
+                    <img src="https://archive.vn/Bss88/df21e12d7260fba2247c4dd328453a98929270e9" alt="thumbnail details" width="168" height="94">
+                </div>
+                <div class="thumb_summary">
+                    <h3>GConvolutional Neural Networks (CNNs) explained</h3>
+                    <p>Microverse Project <br> 444,634 viewsviews</p>
+                </div>
+            </div>
+            <hr>
+            <p class="show_more">SHOW MORE</p>
+
+
+
+        </div>
+
+
+    </div>
+
+    <div class="main_footer">
+
+        <footer>
+
+            <div>
+                <a href="#"><img class="logo" src="https://darkeandtaylor.co.uk/wp-content/uploads/2018/09/youtube-logo-png-transparent-image-e1537456990695.png" alt="youutube logo" width="80" height="20"></a>
+            </div>
+            <div class="footer_buttons">
+                <label class="fa fa-user"> Language:
+                    <select name="language">
+                        <option value="English">English</option>
+                        <option value="English">Dutch</option>
+                    </select>
+                    </label>
+            </div>
+
+            <div class="footer_buttons">
+                <label>Location: <select name="location">
+                        <option value="Netherlands">Netherlands</option>
+                        <option value="America">America</option>
+                    </select>
+                  </label>
+            </div>
+
+            <div class="footer_buttons">
+                <Label>Restricted Mode:
+                    <select name="mode">
+                        <option value="Off">Off</option>
+                        <option value="Off">on</option>
+                    </select>
+                    </label>
+            </div>
+            <div class="footer_buttons">
+                <label class="fa fa-hourglass-end"> History:</label>
+            </div>
+
+            <div class="footer_buttons">
+                <label class="fa fa-question-circle"> Help</label>
+            </div>
+
+        </footer>
+        <div class="footer_links">
+            <hr>
+            <ul>
+                <li>About</li>
+                <li>Press</li>
+                <li>Copyright</li>
+                <li>Creators</li>
+                <li>Advertise</li>
+                <li>Developers</li>
+            </ul>
+            <ul id="footer_links_2">
+                <li>Terms</li>
+                <li>Privacy</li>
+                <li>Policy & Safety</li>
+                <li>Test New Features</li>
+            </ul>
+        </div>
+    </div>
+
 </html>
